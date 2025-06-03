@@ -95,11 +95,11 @@ body,
   align-items: center;
   height: 60px;
 }
+
 .card-grid {
   transition: transform 0.3s ease;
   display: grid;
-  row-gap: 46px;
-  column-gap: 48px;
+  gap: 46px 48px;
   grid-template-columns: 1fr;
   padding: 50px 40px;
 }
@@ -126,6 +126,7 @@ body,
   transform: scale(1.2);
   z-index: 1;
 }
+
 .card:hover .card__title {
   color: #34568b;
 }
